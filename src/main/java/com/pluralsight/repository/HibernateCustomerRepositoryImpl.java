@@ -4,9 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.pluralsight.model.Customer;
-import org.springframework.stereotype.Repository;
 
-@Repository("customerRepository")
 public class HibernateCustomerRepositoryImpl implements CustomerRepository {
 
 	/* (non-Javadoc)

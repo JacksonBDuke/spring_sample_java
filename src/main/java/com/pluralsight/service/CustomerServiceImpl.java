@@ -12,7 +12,8 @@ import org.springframework.stereotype.Service;
 
 @Service("customerService")
 //@Scope("singleton")
-@Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)
+//@Scope(ConfigurableBeanFactory.SCOPE_SINGLETON)
+@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 public class CustomerServiceImpl implements CustomerService {
 
     /*
